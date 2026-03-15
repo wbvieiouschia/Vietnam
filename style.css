@@ -1,0 +1,170 @@
+:root{
+--vietnam-red:#da251d;
+--vietnam-yellow:#ffff00;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+margin:0;
+background:white;
+}
+
+
+.hero{
+height:60vh;
+min-height:400px;
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+url('images/header.png');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+.section-title {
+    font-size: 32px; 
+    font-weight: bold;
+}
+
+.section-subtitle {
+	font-family: "Arial Black", Arial, sans-serif;
+    font-style: italic;    
+    color: gray;           
+    font-weight: normal;   
+    margin-left: 5px;    
+    font-size: 20px;      
+}
+.hero-title{
+font-size:70px;
+font-weight:900;
+color:var(--vietnam-yellow);
+margin:0;
+}
+
+.hero-description{
+max-width:700px;
+margin:20px auto;
+}
+
+
+.nav-grid{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.nav-grid a{
+text-decoration:none;
+border:2px solid white;
+padding:10px 20px;
+color:white;
+font-weight:700;
+}
+
+.nav-grid a:hover{
+background:white;
+color:black;
+}
+
+/* SECTION */
+
+.section-title{
+font-family:'Playfair Display',serif;
+text-align:center;
+font-size:40px;
+margin-top:60px;
+}
+
+.section-subtitle{
+text-align:center;
+margin-bottom:40px;
+}
+
+
+
+.explore-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:0 5% 80px;
+max-width:1200px;
+margin:auto;
+}
+
+
+.category-card{
+position:relative;
+display:block;
+overflow:hidden;
+border-radius:8px;
+text-decoration:none;
+color:white;
+}
+
+.category-card img{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:transform .5s;
+}
+
+.category-card:hover img{
+transform:scale(1.1);
+}
+
+.overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(transparent,rgba(0,0,0,0.8));
+}
+
+.category-card span{
+position:absolute;
+bottom:15px;
+left:15px;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer {
+    background: #9f162d;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.footer-top {
+    text-align: center;
+    font-weight: bold;
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-center {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
