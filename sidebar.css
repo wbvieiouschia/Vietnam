@@ -93,11 +93,12 @@ html, body{
   color:#9f162d;
 }
 
-/* Change only the sidebar link color on hover */
+/* Sidebar link hover: red background, yellow text */
 .sidebar-nav .nav-item:hover {
-  color: var(--vietnam-red); /* change to any color you like */
-  font-weight: bold;          /* optional: make it stand out */
-  transition: color 0.3s ease;
+  background-color: var(--vietnam-red);   /* background turns red */
+  color: var(--vietnam-yellow);           /* text turns yellow */
+  border-radius: 5px;                     /* optional: rounded edges */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /*Main Content*/
