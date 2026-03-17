@@ -127,11 +127,11 @@ html, body{
   width:100%;
   border-radius:15px;
   box-shadow:0 6px 15px rgba(0,0,0,0.15);
-  transition:transform 0.3s ease;
+  /*transition:transform 0.3s ease;*/
 }
 
 .content-main img:hover{
-  transform:scale(1.03);
+  /*transform:scale(1.03);*/
 }
 
 .content-main img.heritage-img{
@@ -224,17 +224,17 @@ footer{
 
 <style>
 .heritage-img {
-  width: auto;          /* Adjust width automatically */
-  height: 200px;        /* Fixed height for all images */
-  object-fit: cover;    /* Crop if necessary, keeps image filling the box */
+  width: auto;          
+  height: 200px;        
+  object-fit: cover;    
   display: block;
-  margin: 0 auto;       /* Center horizontally */
+  margin: 0 auto;       
 }
 table {
-  table-layout: fixed;  /* Ensure table columns are equal width */
+  table-layout: fixed;  
 }
 td {
-  vertical-align: top;  /* Align text at the top of the cell */
+  vertical-align: top;  
   padding: 8px;
 }
 </style>
