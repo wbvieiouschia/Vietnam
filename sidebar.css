@@ -93,6 +93,16 @@ html, body{
   color:#9f162d;
 }
 
+/* Sidebar hover effect */
+.sidebar-nav:hover {
+  background-color: var(--vietnam-red);
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-nav:hover .nav-item {
+  color: var(--vietnam-yellow);
+}
+
 /*Main Content*/
 .content-main{
   flex:1;
